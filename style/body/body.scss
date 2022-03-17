@@ -20,14 +20,14 @@ background-color: aqua;
         display: grid;
         grid-template-columns: 75vw 25vw;
         grid-template-rows: 1fr 1fr 50vh;
-        grid-template-areas: "n n"
+        grid-template-areas: "h h"
                              "m a"
                              "f f";
 
         
-        nav{
+        header{
             background-color: $backgroundColorNav;
-            grid-area: n;
+            grid-area: h;
         }
         main{
             // background-color: $backgroundColorMain;
@@ -51,7 +51,7 @@ background-color: aqua;
             display: grid;
             grid-template-columns: 1fr;
             grid-template-rows: 100px 1fr 1fr 50vh;
-            grid-template-areas: "n"
+            grid-template-areas: "h"
                                  "a"
                                  "m"
                                  "f";

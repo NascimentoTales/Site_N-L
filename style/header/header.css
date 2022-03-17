@@ -1,0 +1,168 @@
+header .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 90%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .container img {
+  width: 250px;
+  margin-left: -50px;
+}
+
+header .container .menu-section .menuToggle {
+  display: none;
+}
+
+header .container .menu-section .menuToggle .one, header .container .menu-section .menuToggle .two, header .container .menu-section .menuToggle .tree {
+  margin-bottom: 5px;
+  width: 30px;
+  height: 3px;
+  background-color: aliceblue;
+}
+
+header .container .menu-section .menuDesk {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+header .container .menu-section .menuDesk .Itens {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header .container .menu-section .menuDesk .Itens a {
+  margin-left: 20px;
+  color: aliceblue;
+}
+
+@media screen and (max-width: 500px) {
+  header .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 90%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  header .container img {
+    width: 250px;
+  }
+  header .container .menu-section .menuToggle {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  header .container .menu-section .menuToggle .one, header .container .menu-section .menuToggle .two, header .container .menu-section .menuToggle .tree {
+    margin-bottom: 5px;
+    width: 30px;
+    height: 3px;
+    background-color: aliceblue;
+    -webkit-transition-duration: 0.3s;
+            transition-duration: 0.3s;
+  }
+  header .container .menu-section .menuDesk {
+    display: none;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  header .container .menu-section .menuDesk .Itens {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  header .container .menu-section .menuDesk .Itens a {
+    margin-left: 20px;
+    color: aliceblue;
+  }
+  header .on {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #80ff00;
+    z-index: 10;
+  }
+  header .on img {
+    width: 250px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: -50px;
+  }
+  header .on .menu-section .menuToggle {
+    position: absolute;
+    top: 0;
+    margin-top: 5px;
+    padding: 40px;
+    right: 0;
+  }
+  header .on .menu-section .menuToggle .one {
+    -webkit-transform: rotate(45deg) translate(7px, 7px);
+            transform: rotate(45deg) translate(7px, 7px);
+  }
+  header .on .menu-section .menuToggle .two {
+    opacity: 0;
+  }
+  header .on .menu-section .menuToggle .tree {
+    -webkit-transform: rotate(-45deg) translate(4px, -4px);
+            transform: rotate(-45deg) translate(4px, -4px);
+  }
+  header .on .menu-section .menuDesk {
+    display: block;
+    width: 100vw;
+  }
+  header .on .menu-section .menuDesk .Itens {
+    display: block;
+    text-align: center;
+  }
+  header .on .menu-section .menuDesk .Itens .Item li {
+    margin-bottom: 20px;
+  }
+}
+/*# sourceMappingURL=header.css.map */

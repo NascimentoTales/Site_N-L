@@ -24,15 +24,15 @@ body .container {
       grid-template-columns: 75vw 25vw;
   -ms-grid-rows: 1fr 1fr 50vh;
       grid-template-rows: 1fr 1fr 50vh;
-      grid-template-areas: "n n" "m a" "f f";
+      grid-template-areas: "h h" "m a" "f f";
 }
 
-body .container nav {
+body .container header {
   background-color: #969696;
   -ms-grid-row: 1;
   -ms-grid-column: 1;
   -ms-grid-column-span: 2;
-  grid-area: n;
+  grid-area: h;
 }
 
 body .container main {
@@ -62,7 +62,7 @@ body .container footer {
         grid-template-columns: 1fr;
     -ms-grid-rows: 100px 1fr 1fr 50vh;
         grid-template-rows: 100px 1fr 1fr 50vh;
-        grid-template-areas: "n" "a" "m" "f";
+        grid-template-areas: "h" "a" "m" "f";
   }
 }
 /*# sourceMappingURL=body.css.map */
